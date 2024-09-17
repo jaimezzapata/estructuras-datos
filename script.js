@@ -52,16 +52,37 @@
 //     }
 // }
 
-let personas = []
-let edades = []
-for (let index = 0; index < 5; index++) {
-    let persona = prompt('Ingrese el nombre de la persona: ')
-    let edad = prompt('Ingrese la edad de la persona: ')
-    personas[index] = persona
-    edades[index] = edad
-}
-for (let index = 0; index < 5; index++) {
-    if (edades[index] >= 18) {
-        console.log('La persona ' + personas[index] + ' tiene ' + edades[index] + ' años')
-    }
-}
+// let personas = []
+// let edades = []
+// for (let index = 0; index < 5; index++) {
+//     let persona = prompt('Ingrese el nombre de la persona: ')
+//     let edad = prompt('Ingrese la edad de la persona: ')
+//     personas[index] = persona
+//     edades[index] = edad
+// }
+// for (let index = 0; index < 5; index++) {
+//     if (edades[index] >= 18) {
+//         console.log('La persona ' + personas[index] + ' tiene ' + edades[index] + ' años')
+//     }
+// }
+
+// let nombres = ['Andrea']
+// console.log(nombres)
+// nombres.push('Jaime')
+// nombres.push('Luisa')
+// nombres.push('Camila')
+// console.log(nombres)
+// nombres.unshift('Camilo')
+// nombres.unshift('Karen')
+// console.log(nombres)
+// nombres.pop()
+// nombres.pop()
+// console.log(nombres)
+// nombres.shift()
+// console.log(nombres)
+
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+numeros.splice(0,2)
+console.log(numeros)
+numeros.splice(3, 1)
+console.log(numeros)
