@@ -1,0 +1,5 @@
+Estructuras de datos (JavaScript)
+1 - Arreglos (vectores)
+    Simulación de datos (almacenamiento)
+2 - Objetos
+    Agrupación de información de un mismo elemento
