@@ -81,8 +81,64 @@
 // nombres.shift()
 // console.log(nombres)
 
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-numeros.splice(0,2)
-console.log(numeros)
-numeros.splice(3, 1)
-console.log(numeros)
+// let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// numeros.splice(0,2)
+// console.log(numeros)
+// numeros.splice(3, 1)
+// console.log(numeros)
+
+/* Desarrollar un algoritmo que pida el ingreso de la información de un empleado: nombre, documento, telefono, edad, area: (TI, Recursos humanos, salud y seguridad, bienestar, operativos) y salario
+En total son 20 empleados
+El salario se debe calcular con un valor hora y una cantidad de horas
+Mostrar toda la información de los empleados que tienen un salario mayor a 2000000 y que estan en el area de recursos humanos o de TI */
+
+
+// for (let index = 0; index < 3; index++) {
+//     let estudiante = prompt('Ingrese el nombre del Estudiante: ')
+//     console.log(estudiante)
+//     let repetir = true
+//     while (repetir) {
+//         let opcion = ('Desa ingresar otra nota\n1 - Si\n2 - No ')
+//         if (opcion == '2') {
+//             repetir = false
+//         }
+//     }
+
+// }
+
+
+// let numeros = [1, 2, 3, 4, 5, 6, 7, 8]
+// let numerosPares = numeros.map(function (numero) {
+//     return numero * 4
+//     // if (numero % 2 == 0) {
+//     //     return numero
+//     // }
+// })
+// console.log(numerosPares)
+// console.log(numeros)
+// numeros.map((numero) => {
+//     console.log(numero)
+// })
+
+// let nombres = ['Ana', 'Camila', 'Andrea', 'Felipe']
+// let nombresCompletos = nombres.map((nombre) => {
+//     return nombre + ' Zapata'
+// })
+// console.log(nombresCompletos)
+
+// let nombres = ['Luisa', 'Camila', 'Ana', 'Luisa', 'Miguel', 'Adriana', 'Andrea', 'Felipe', 'Camilo', 'Ana']
+// let nombresNuevos = nombres.filter((nombre) => {
+//     if (nombre == 'Ana') {
+//         return nombre
+//     }
+// })
+// console.log(nombresNuevos)
+
+
+// let nombres = ['Luisa', 'Camila', 'Ana', 'Luisa', 'Miguel', 'Adriana', 'Andrea', 'Felipe', 'Camilo', 'Ana']
+// let nuevoNombre = nombres.find((nombre) => {
+//     if (nombre == 'Ana') {
+//         return nombre
+//     }
+// })
+// console.log(nuevoNombre)
