@@ -19,4 +19,9 @@ Estructuras de datos (JavaScript)
         some()
         -join(), split()
 2 - Objetos
-    Agrupación de información de un mismo elemento
+    Agrupación de información de un mismo elemento. 
+    Par de datos -> "llave": valor. Un Objeto podrá tener múltiples pares de datos
+        Literales -> Es construir los Objetos directos con sus atributos
+        Constructor -> Crear un objeto que parte de una clase o función superior (Instancia de Objetos)
+
+DOM

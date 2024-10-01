@@ -142,3 +142,72 @@ Mostrar toda la información de los empleados que tienen un salario mayor a 2000
 //     }
 // })
 // console.log(nuevoNombre)
+
+// let objetoUno = {/* Objeto Literal */
+//     "nombre": 'Jaime',
+//     "id": 10203040
+// }
+// let objetoDos = {
+//     "nombre": 'Jaime',
+//     "id": 9900234,
+//     "telefono": 3152001282,
+//     "direccion": "Av 34-20"
+// }
+// let nuevoArreglo = [objetoUno, 'Ana', objetoDos, 'Luisa']
+
+// for (let index = 0; index < 4; index++) {
+//     if (nuevoArreglo[index].id == 10203040) {
+//         console.log(nuevoArreglo[index])
+//     }
+// }
+// let objetoUno = {}
+// let objetoDos = {}
+// let tablaUno = [objetoUno, objetoDos]
+// let tablaDos = []
+// let tablaTres = []
+
+// let persona = {
+//     "nombre": 'Jaime Zapata',
+//     "edad": 33,
+//     "profesion": 'Developer',
+//     "direccion": {
+//         "calle": 20,
+//         "carrera": 45,
+//         "barrio": "Niquia"
+//     },
+//     "hobbies": ['Caminar', 'Comer', 'Dormir']
+// }
+// let personaDos = {
+//     "nombre": 'Camila Restrepo',
+//     "edad": 33,
+//     "profesion": 'Developer',
+//     "direccion": {
+//         "calle": 20,
+//         "carrera": 45,
+//         "barrio": "Niquia"
+//     },
+//     "hobbies": ['Caminar', 'Comer', 'Dormir']
+// }
+
+// console.log(persona)
+
+function Persona(nombre, edad, profesion){
+    this.nombre = nombre
+    this.edad = edad
+    this.profesion = profesion
+}
+let nuevoObjetoUno = new Persona('Jaime Zapata', 33, 'Ing Sistemas')
+let nuevoObjetoDos = new Persona('Camila REstrepo', 38, 'Ing Software')
+console.log(nuevoObjetoUno, nuevoObjetoDos)
+
+let persona = {
+    "nombre" : 'Jaime',
+    "edad" : '33',
+    "profesion" : 'Developer',
+}
+let personaDos = {
+    "nombre" : 'Ana',
+    "edad" : '28',
+    "profesion" : 'Ux/UI',
+}
+console.log(persona, personaDos)
